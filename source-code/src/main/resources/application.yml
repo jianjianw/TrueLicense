@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8888
 # License 相关配置
 license:
   # 主题
@@ -9,10 +9,10 @@ license:
   # 访问公钥的密码
   storePass: pubwd123456
   # license 位置
-  licensePath: ./src/main/resources/license/license.lic
-  # licensePath: E:/licenseTest/license.lic
+  #licensePath: ./src/main/resources/license/license.lic
+  licensePath: D:/license_demo/license.lic
   # licensePath: /root/license-test/license.lic
   # 公钥位置
-  publicKeysStorePath: ./src/main/resources/license/publicCerts.keystore
-  # publicKeysStorePath: E:/licenseTest/publicCerts.keystore
+  #publicKeysStorePath: ./src/main/resources/license/publicCerts.keystore
+  publicKeysStorePath: D:/license_demo/publicCerts.keystore
   # publicKeysStorePath: /root/license-test/publicCerts.keystore
